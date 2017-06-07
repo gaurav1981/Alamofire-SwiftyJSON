@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
   s.authors     = { "tangplin" => "tangplin@gmail.com" }
 
   s.requires_arc = true
-  s.osx.deployment_target = "10.9"
-  s.ios.deployment_target = "8.0"
+  s.osx.deployment_target = "10.11"
+  s.ios.deployment_target = "9.0"
   s.source   = { :git => "https://github.com/SwiftyJSON/Alamofire-SwiftyJSON.git", :tag => s.version }
   s.source_files = "Source/*.swift"
-  s.dependency 'Alamofire', '1.3'
-  s.dependency 'SwiftyJSON', '2.2.0'
+  s.dependency 'Alamofire', '~> 4.0'
+  s.dependency 'SwiftyJSON', '~> 3.0'
 end
